@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href='./styles.css' type='text/css' rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <title>MadLibs</title>
+    </head>
+    <body>
+        <section id="heading">
+            <h1>MadLibs!</h1>
+        </section>
+        <section id="main">
+                <h3>Complete the Form!</h3>
+                <form action="./story.html" method="GET">
+                    <label for='object1'>Object you Really Like:</label>
+                    <input type='text' name='object1' id='object1' required>
+                    <br>
+                    <label for="person1">Person:</label>
+                    <input type="text" name="person1" id="person1" required>
+                    <br>
+                    <label for="place1">Place:</label>
+                    <input type="text" name="place1" id="place1" required>
+                    <br>
+                    <span>Fast or Slow:</span>
+                    <input type="radio" id="fast" name="speed" value="fast" required>
+                    <label for="fast">Fast</label>
+                    <input type="radio" id='slow' name='speed' value='slow' required>
+                    <label for='slow'>Slow</label>
+                    <br>
+                    <label for="adjective1">Adjective:</label>
+                    <input type="text" name="adjective1" id="adjective1" required>
+                    <br>
+                    <span>Walked or Ran:</span>
+                    <input type="radio" id="walked" name="move" value="walked" required>
+                    <label for="walked">Walked</label>
+                    <input type="radio" id="ran" name="move" value="ran" required>
+                    <label for="ran">Ran</label>
+                    <br>
+                    <input type="submit" name="submit" id="submit" value="Submit!">
+                </form>
+        </section>
+    </body>
+</html>
